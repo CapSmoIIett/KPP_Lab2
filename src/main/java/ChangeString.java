@@ -1,24 +1,20 @@
 public class ChangeString {
 
-    String string;
+    ChangeString() { }
 
-    ChangeString(String str){
-        this.string = str;
-    }
-
-    public String toUpCase () {
+    public String toUpCase (String string) {
         return string.toUpperCase();
     }
 
-    public String toLowCase () {
+    public String toLowCase (String string) {
         return string.toLowerCase();
     }
 
-    public int getLength() {
+    public int getLength(String string) {
         return string.length();
     }
 
-    public String OneFromTwo(String str) {
-        return string + str;
+    public String oneFromTwo(String string, String string2) {
+        return string + string2;
     }
 }
